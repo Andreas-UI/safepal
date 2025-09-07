@@ -1,4 +1,10 @@
-CodeNection 25 - NooobMaxxin
+# Team Information and Problem Statement
+| **Field**             | **Details**                                                  |
+| --------------------- | ------------------------------------------------------------ |
+| **Team Name**         | NooobMaxxin                                                  |
+| **Members**           | Andreas Susanto, Choy Sheng Jie, Heng Pin Jie, Wong Jia Xuan |
+| **Problem Statement** | Campus Management (Campus Safety App)                        |
+
 
 # 📱 SafePal - Campus Safety App
 
