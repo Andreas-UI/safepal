@@ -189,6 +189,23 @@ This ensures only critical situations trigger wider alerts.
 **Q: What about privacy and data safety?**  
 **A:** We use **Supabase authentication and role-based access control**. Location data is only tied to incident reports or optional features (like Safe Walk). Sensitive information is never exposed publicly.  
 
+**Q: What if there’s no internet connection?**  
+**A:** In the current prototype, internet is required.  
+
+**Q: How scalable is this solution?**  
+**A:** The design is **modular and cloud-based** (Supabase + React Native). It can start on a single campus and scale to multiple universities with minimal changes.  
+
+**Q: What if students don’t use it?**  
+**A:** Since it is community based, adoption is encouraged by making the app **useful beyond emergencies**:  
+- Daily incident log  
+- Online user visibility  
+- Community-driven safety updates  
+These features make it a habit, not just an emergency tool.  
+
+**Q: How does this integrate with campus security?**  
+**A:** Security guards have access to higher-priority alerts. They can use an **admin dashboard** (planned feature) to monitor reports in real time, improving coordination with students and authorities.  
+
+
 ## Installation
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
