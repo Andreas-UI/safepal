@@ -4,7 +4,15 @@ A mobile app built by students, for students. With this app, no one walks alone 
 
 ## Overview
 
-Campus safety has always been a concern, especially during late hours, isolated areas, or emergencies where help is not instantly available. This project reimagines campus safety by combining **real-time incident reporting**, **community awareness**, and **smart alerts** into one unified mobile experience.
+Campus safety has always been a concern, especially during late hours, in isolated areas, or during emergencies where help is not instantly available.
+
+Unlike conventional safety apps that only provide a **hotline**, **an emergency contact list**, or **a single panic button** to call someone, our solution is built around **real-time information sharing and transparency**. We believe that safety is about **speed and awareness** — the faster information flows, the safer a community becomes. That’s why our app reimagines campus safety by combining:
+
+* Real-time incident reporting
+* Community awareness and transparency
+* Smart, priority-based alerts
+
+All in one unified mobile experience where everyone contributes to safety, and everyone benefits from it.
 
 ## 🚀 Features
 
@@ -159,6 +167,27 @@ flowchart LR
 * **Algorithms** → k-means clustering for incidents.
 
 * **Hosting** → Supabase + Expo EAS Build.
+
+## ❓ FAQ / Clarifications  
+
+**Q: Isn’t this just another emergency button app?**  
+**A:** No. Traditional apps only connect you to a hotline or emergency contact. Our solution is **real-time, community-driven, and transparent**. Users don’t just push a button; they share and receive live information that helps the entire campus stay safe.  
+
+**Q: How do you prevent spamming or false reports?**  
+**A:** Each report is tied to a user account or anonymous. Reports can include images and descriptions, and are visible to all. Future improvements will add **verification mechanisms** (upvotes, admin moderation, credibility scores) or using k-means algorithm to filter false or duplicate reports.  
+
+**Q: Will this overwhelm students with too many alerts?**  
+**A:** No. Alerts are **priority-based**:  
+- *General* → log only  
+- *Safety* → nearby users + campus security  
+- *Emergency/SOS* → everyone + security + police  
+This ensures only critical situations trigger wider alerts.  
+
+**Q: How is this different from campus security’s existing system?**  
+**A:** Current systems are mostly **reactive** — they respond only after being contacted (calls, tickets, etc). Our app is **proactive and preventive**: everyone contributes to safety in real time, enabling faster responses and safer routes before risks escalate.  
+
+**Q: What about privacy and data safety?**  
+**A:** We use **Supabase authentication and role-based access control**. Location data is only tied to incident reports or optional features (like Safe Walk). Sensitive information is never exposed publicly.  
 
 ## Installation
 
