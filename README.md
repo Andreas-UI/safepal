@@ -170,3 +170,33 @@ flowchart LR
 <img width="1080" height="1920" alt="Slide 16_9 - 14" src="https://github.com/user-attachments/assets/ea242441-23fc-4844-8604-2cfcf0af63e8" />
 <img width="1080" height="1920" alt="Slide 16_9 - 15" src="https://github.com/user-attachments/assets/bb6c06ce-5c67-4764-ada6-de24c7f5a7a2" />
 <img width="1080" height="1920" alt="Slide 16_9 - 16" src="https://github.com/user-attachments/assets/23a53d2c-eb7b-4ae7-97ff-e1ecb5908923" />
+
+
+## Installation
+
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+
+> NOTE:: At the moment, this repository does not have the prototype but the base code for this app. Reproducing the app below will only show you the base of React Native Expo App.
+
+1. Install dependencies
+
+   ```bash
+   npm install
+   ```
+
+2. Start the app
+
+   ```bash
+   npx expo start
+   ```
+
+In the output, you'll find options to open the app in a
+
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+
+
